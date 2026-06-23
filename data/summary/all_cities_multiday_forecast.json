@@ -1,0 +1,671 @@
+{
+  "generated_at": "2026-06-23T05:32:49.317783",
+  "horizon": 5,
+  "data_source": "open_meteo_era5",
+  "note": "aux_vars_carried=true means WS/WD/SW_rad/PRCP held constant from last observed row",
+  "cities": {
+    "Mumbai": {
+      "lat": 19.11,
+      "lon": 72.85,
+      "horizons": [
+        {
+          "horizon": 1,
+          "forecast_date": "2026-06-23",
+          "aux_vars_carried": false,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100650.0427,
+              "uv_GRU": 100641.4952,
+              "uv_ANN": 100623.8864,
+              "mv_HLSTM_GRU": 100652.3251,
+              "mv_GRU": 100564.8695,
+              "mv_ANN": 100560.306,
+              "ensemble_uv": 100638.4748,
+              "ensemble_mv": 100592.5002,
+              "ensemble_all": 100615.4875,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 81.9413,
+              "uv_GRU": 80.5708,
+              "uv_ANN": 82.0418,
+              "mv_HLSTM_GRU": 83.5826,
+              "mv_GRU": 84.3856,
+              "mv_ANN": 81.8034,
+              "ensemble_uv": 81.518,
+              "ensemble_mv": 83.2572,
+              "ensemble_all": 82.3876,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 28.1466,
+              "uv_GRU": 28.0549,
+              "uv_ANN": 28.4094,
+              "mv_HLSTM_GRU": 26.6979,
+              "mv_GRU": 27.7372,
+              "mv_ANN": 28.1809,
+              "ensemble_uv": 28.2037,
+              "ensemble_mv": 27.5387,
+              "ensemble_all": 27.8712,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 2,
+          "forecast_date": "2026-06-24",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100588.4876,
+              "uv_GRU": 100582.4459,
+              "uv_ANN": 100595.6876,
+              "mv_HLSTM_GRU": 100686.8042,
+              "mv_GRU": 100545.7433,
+              "mv_ANN": 100600.602,
+              "ensemble_uv": 100588.8737,
+              "ensemble_mv": 100611.0499,
+              "ensemble_all": 100599.9618,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 87.386,
+              "uv_GRU": 85.6509,
+              "uv_ANN": 83.445,
+              "mv_HLSTM_GRU": 86.8568,
+              "mv_GRU": 87.1269,
+              "mv_ANN": 85.6516,
+              "ensemble_uv": 85.494,
+              "ensemble_mv": 86.5451,
+              "ensemble_all": 86.0195,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 26.1563,
+              "uv_GRU": 26.968,
+              "uv_ANN": 27.1426,
+              "mv_HLSTM_GRU": 26.2995,
+              "mv_GRU": 27.3389,
+              "mv_ANN": 27.5679,
+              "ensemble_uv": 26.7556,
+              "ensemble_mv": 27.0688,
+              "ensemble_all": 26.9122,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 3,
+          "forecast_date": "2026-06-25",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100600.8169,
+              "uv_GRU": 100588.3528,
+              "uv_ANN": 100593.2678,
+              "mv_HLSTM_GRU": 100676.1628,
+              "mv_GRU": 100555.4133,
+              "mv_ANN": 100604.5206,
+              "ensemble_uv": 100594.1458,
+              "ensemble_mv": 100612.0322,
+              "ensemble_all": 100603.089,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 89.07,
+              "uv_GRU": 87.516,
+              "uv_ANN": 83.7854,
+              "mv_HLSTM_GRU": 87.5164,
+              "mv_GRU": 87.3686,
+              "mv_ANN": 84.8443,
+              "ensemble_uv": 86.7904,
+              "ensemble_mv": 86.5764,
+              "ensemble_all": 86.6834,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 25.1204,
+              "uv_GRU": 26.46,
+              "uv_ANN": 26.3917,
+              "mv_HLSTM_GRU": 26.4277,
+              "mv_GRU": 27.2099,
+              "mv_ANN": 27.276,
+              "ensemble_uv": 25.9907,
+              "ensemble_mv": 26.9712,
+              "ensemble_all": 26.4809,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 4,
+          "forecast_date": "2026-06-26",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100587.6595,
+              "uv_GRU": 100578.9172,
+              "uv_ANN": 100577.3066,
+              "mv_HLSTM_GRU": 100689.4667,
+              "mv_GRU": 100559.2308,
+              "mv_ANN": 100614.4457,
+              "ensemble_uv": 100581.2944,
+              "ensemble_mv": 100621.0478,
+              "ensemble_all": 100601.1711,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 89.0368,
+              "uv_GRU": 87.6923,
+              "uv_ANN": 83.8125,
+              "mv_HLSTM_GRU": 87.7619,
+              "mv_GRU": 86.8356,
+              "mv_ANN": 83.7558,
+              "ensemble_uv": 86.8472,
+              "ensemble_mv": 86.1178,
+              "ensemble_all": 86.4825,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 24.5654,
+              "uv_GRU": 26.3619,
+              "uv_ANN": 26.1092,
+              "mv_HLSTM_GRU": 26.703,
+              "mv_GRU": 27.1854,
+              "mv_ANN": 27.3211,
+              "ensemble_uv": 25.6788,
+              "ensemble_mv": 27.0698,
+              "ensemble_all": 26.3743,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 5,
+          "forecast_date": "2026-06-27",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100583.0064,
+              "uv_GRU": 100568.3091,
+              "uv_ANN": 100565.5795,
+              "mv_HLSTM_GRU": 100682.3324,
+              "mv_GRU": 100550.9053,
+              "mv_ANN": 100607.4513,
+              "ensemble_uv": 100572.2983,
+              "ensemble_mv": 100613.563,
+              "ensemble_all": 100592.9307,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 88.8072,
+              "uv_GRU": 87.9055,
+              "uv_ANN": 83.9688,
+              "mv_HLSTM_GRU": 88.562,
+              "mv_GRU": 86.5722,
+              "mv_ANN": 82.8259,
+              "ensemble_uv": 86.8938,
+              "ensemble_mv": 85.9867,
+              "ensemble_all": 86.4403,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 24.3217,
+              "uv_GRU": 26.4179,
+              "uv_ANN": 26.112,
+              "mv_HLSTM_GRU": 26.8609,
+              "mv_GRU": 27.3077,
+              "mv_ANN": 27.3946,
+              "ensemble_uv": 25.6172,
+              "ensemble_mv": 27.1877,
+              "ensemble_all": 26.4025,
+              "unit": "C"
+            }
+          }
+        }
+      ]
+    },
+    "Delhi": {
+      "lat": 28.61,
+      "lon": 77.2,
+      "horizons": [
+        {
+          "horizon": 1,
+          "forecast_date": "2026-06-23",
+          "aux_vars_carried": false,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100057.6378,
+              "uv_GRU": 100103.3912,
+              "uv_ANN": 100364.8961,
+              "mv_HLSTM_GRU": 100347.4934,
+              "mv_GRU": 100291.8918,
+              "mv_ANN": 100220.8904,
+              "ensemble_uv": 100175.3084,
+              "ensemble_mv": 100286.7585,
+              "ensemble_all": 100231.0335,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 69.3295,
+              "uv_GRU": 65.9676,
+              "uv_ANN": 67.6788,
+              "mv_HLSTM_GRU": 64.9121,
+              "mv_GRU": 64.6896,
+              "mv_ANN": 65.588,
+              "ensemble_uv": 67.6586,
+              "ensemble_mv": 65.0632,
+              "ensemble_all": 66.3609,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 31.2886,
+              "uv_GRU": 31.8052,
+              "uv_ANN": 30.4816,
+              "mv_HLSTM_GRU": 30.6549,
+              "mv_GRU": 30.4061,
+              "mv_ANN": 32.791,
+              "ensemble_uv": 31.1918,
+              "ensemble_mv": 31.284,
+              "ensemble_all": 31.2379,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 2,
+          "forecast_date": "2026-06-24",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100042.5356,
+              "uv_GRU": 100093.0406,
+              "uv_ANN": 100412.3743,
+              "mv_HLSTM_GRU": 100362.0205,
+              "mv_GRU": 100306.6231,
+              "mv_ANN": 100235.5652,
+              "ensemble_uv": 100182.6502,
+              "ensemble_mv": 100301.4029,
+              "ensemble_all": 100242.0266,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 83.3121,
+              "uv_GRU": 82.6595,
+              "uv_ANN": 82.0885,
+              "mv_HLSTM_GRU": 76.8289,
+              "mv_GRU": 76.7741,
+              "mv_ANN": 76.0463,
+              "ensemble_uv": 82.6867,
+              "ensemble_mv": 76.5498,
+              "ensemble_all": 79.6182,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 30.4768,
+              "uv_GRU": 30.876,
+              "uv_ANN": 29.4624,
+              "mv_HLSTM_GRU": 30.093,
+              "mv_GRU": 29.9721,
+              "mv_ANN": 31.8223,
+              "ensemble_uv": 30.2718,
+              "ensemble_mv": 30.6291,
+              "ensemble_all": 30.4504,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 3,
+          "forecast_date": "2026-06-25",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100063.1108,
+              "uv_GRU": 100099.5481,
+              "uv_ANN": 100412.0951,
+              "mv_HLSTM_GRU": 100362.6726,
+              "mv_GRU": 100330.9493,
+              "mv_ANN": 100233.8957,
+              "ensemble_uv": 100191.5847,
+              "ensemble_mv": 100309.1725,
+              "ensemble_all": 100250.3786,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 88.6776,
+              "uv_GRU": 87.2157,
+              "uv_ANN": 83.4883,
+              "mv_HLSTM_GRU": 79.9558,
+              "mv_GRU": 80.1209,
+              "mv_ANN": 76.4462,
+              "ensemble_uv": 86.4605,
+              "ensemble_mv": 78.841,
+              "ensemble_all": 82.6508,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 30.1214,
+              "uv_GRU": 30.3447,
+              "uv_ANN": 28.9818,
+              "mv_HLSTM_GRU": 29.603,
+              "mv_GRU": 29.5113,
+              "mv_ANN": 31.4859,
+              "ensemble_uv": 29.816,
+              "ensemble_mv": 30.2001,
+              "ensemble_all": 30.008,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 4,
+          "forecast_date": "2026-06-26",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100090.0956,
+              "uv_GRU": 100106.7402,
+              "uv_ANN": 100304.9432,
+              "mv_HLSTM_GRU": 100412.5306,
+              "mv_GRU": 100362.0281,
+              "mv_ANN": 100192.2245,
+              "ensemble_uv": 100167.2597,
+              "ensemble_mv": 100322.261,
+              "ensemble_all": 100244.7604,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 89.0776,
+              "uv_GRU": 87.882,
+              "uv_ANN": 83.4553,
+              "mv_HLSTM_GRU": 78.462,
+              "mv_GRU": 79.7956,
+              "mv_ANN": 74.7154,
+              "ensemble_uv": 86.8049,
+              "ensemble_mv": 77.6576,
+              "ensemble_all": 82.2313,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 30.0601,
+              "uv_GRU": 30.1659,
+              "uv_ANN": 28.9417,
+              "mv_HLSTM_GRU": 29.4486,
+              "mv_GRU": 29.357,
+              "mv_ANN": 32.4797,
+              "ensemble_uv": 29.7226,
+              "ensemble_mv": 30.4285,
+              "ensemble_all": 30.0755,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 5,
+          "forecast_date": "2026-06-27",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100112.3498,
+              "uv_GRU": 100108.1601,
+              "uv_ANN": 100313.3992,
+              "mv_HLSTM_GRU": 100410.449,
+              "mv_GRU": 100360.3694,
+              "mv_ANN": 100188.6922,
+              "ensemble_uv": 100177.9697,
+              "ensemble_mv": 100319.8368,
+              "ensemble_all": 100248.9033,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 87.0096,
+              "uv_GRU": 87.4073,
+              "uv_ANN": 82.3448,
+              "mv_HLSTM_GRU": 73.7156,
+              "mv_GRU": 77.7404,
+              "mv_ANN": 71.8853,
+              "ensemble_uv": 85.5872,
+              "ensemble_mv": 74.4471,
+              "ensemble_all": 80.0172,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 30.2712,
+              "uv_GRU": 30.4064,
+              "uv_ANN": 29.2716,
+              "mv_HLSTM_GRU": 29.626,
+              "mv_GRU": 29.5229,
+              "mv_ANN": 32.6054,
+              "ensemble_uv": 29.9831,
+              "ensemble_mv": 30.5848,
+              "ensemble_all": 30.2839,
+              "unit": "C"
+            }
+          }
+        }
+      ]
+    },
+    "Chennai": {
+      "lat": 13.08,
+      "lon": 80.27,
+      "horizons": [
+        {
+          "horizon": 1,
+          "forecast_date": "2026-06-23",
+          "aux_vars_carried": false,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100658.3073,
+              "uv_GRU": 100637.4244,
+              "uv_ANN": 100643.7916,
+              "mv_HLSTM_GRU": 100745.3577,
+              "mv_GRU": 100716.9817,
+              "mv_ANN": 100667.4854,
+              "ensemble_uv": 100646.5078,
+              "ensemble_mv": 100709.9416,
+              "ensemble_all": 100678.2247,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 77.2614,
+              "uv_GRU": 77.9895,
+              "uv_ANN": 78.6182,
+              "mv_HLSTM_GRU": 77.506,
+              "mv_GRU": 80.9204,
+              "mv_ANN": 79.0221,
+              "ensemble_uv": 77.9564,
+              "ensemble_mv": 79.1495,
+              "ensemble_all": 78.5529,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 30.1407,
+              "uv_GRU": 28.2952,
+              "uv_ANN": 28.1595,
+              "mv_HLSTM_GRU": 29.6059,
+              "mv_GRU": 28.8261,
+              "mv_ANN": 28.8833,
+              "ensemble_uv": 28.8651,
+              "ensemble_mv": 29.1051,
+              "ensemble_all": 28.9851,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 2,
+          "forecast_date": "2026-06-24",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100581.2461,
+              "uv_GRU": 100571.483,
+              "uv_ANN": 100611.3712,
+              "mv_HLSTM_GRU": 100723.8812,
+              "mv_GRU": 100666.8148,
+              "mv_ANN": 100620.3923,
+              "ensemble_uv": 100588.0334,
+              "ensemble_mv": 100670.3628,
+              "ensemble_all": 100629.1981,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 82.1805,
+              "uv_GRU": 82.2227,
+              "uv_ANN": 81.7297,
+              "mv_HLSTM_GRU": 80.8943,
+              "mv_GRU": 82.3582,
+              "mv_ANN": 80.8162,
+              "ensemble_uv": 82.0443,
+              "ensemble_mv": 81.3562,
+              "ensemble_all": 81.7003,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 29.117,
+              "uv_GRU": 27.4368,
+              "uv_ANN": 27.1981,
+              "mv_HLSTM_GRU": 29.1112,
+              "mv_GRU": 28.3826,
+              "mv_ANN": 28.4588,
+              "ensemble_uv": 27.9173,
+              "ensemble_mv": 28.6508,
+              "ensemble_all": 28.2841,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 3,
+          "forecast_date": "2026-06-25",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100548.2116,
+              "uv_GRU": 100539.3583,
+              "uv_ANN": 100566.2271,
+              "mv_HLSTM_GRU": 100720.2104,
+              "mv_GRU": 100667.7857,
+              "mv_ANN": 100619.7994,
+              "ensemble_uv": 100551.2657,
+              "ensemble_mv": 100669.2651,
+              "ensemble_all": 100610.2654,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 83.9482,
+              "uv_GRU": 83.7645,
+              "uv_ANN": 82.2366,
+              "mv_HLSTM_GRU": 81.8298,
+              "mv_GRU": 82.7465,
+              "mv_ANN": 81.5919,
+              "ensemble_uv": 83.3164,
+              "ensemble_mv": 82.0561,
+              "ensemble_all": 82.6862,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 28.253,
+              "uv_GRU": 27.0975,
+              "uv_ANN": 26.7285,
+              "mv_HLSTM_GRU": 28.8663,
+              "mv_GRU": 28.1204,
+              "mv_ANN": 28.1486,
+              "ensemble_uv": 27.3597,
+              "ensemble_mv": 28.3784,
+              "ensemble_all": 27.8691,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 4,
+          "forecast_date": "2026-06-26",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100534.8704,
+              "uv_GRU": 100527.9772,
+              "uv_ANN": 100545.1263,
+              "mv_HLSTM_GRU": 100719.2545,
+              "mv_GRU": 100655.6669,
+              "mv_ANN": 100620.079,
+              "ensemble_uv": 100535.9913,
+              "ensemble_mv": 100665.0001,
+              "ensemble_all": 100600.4957,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 84.4562,
+              "uv_GRU": 84.085,
+              "uv_ANN": 82.3462,
+              "mv_HLSTM_GRU": 81.1991,
+              "mv_GRU": 82.378,
+              "mv_ANN": 81.1634,
+              "ensemble_uv": 83.6291,
+              "ensemble_mv": 81.5802,
+              "ensemble_all": 82.6047,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 28.0207,
+              "uv_GRU": 27.0908,
+              "uv_ANN": 26.5104,
+              "mv_HLSTM_GRU": 29.1283,
+              "mv_GRU": 28.2711,
+              "mv_ANN": 28.0801,
+              "ensemble_uv": 27.2073,
+              "ensemble_mv": 28.4932,
+              "ensemble_all": 27.8502,
+              "unit": "C"
+            }
+          }
+        },
+        {
+          "horizon": 5,
+          "forecast_date": "2026-06-27",
+          "aux_vars_carried": true,
+          "forecasts": {
+            "PRmsl": {
+              "uv_HLSTM_GRU": 100522.6768,
+              "uv_GRU": 100518.194,
+              "uv_ANN": 100530.0958,
+              "mv_HLSTM_GRU": 100695.0921,
+              "mv_GRU": 100629.2379,
+              "mv_ANN": 100605.5592,
+              "ensemble_uv": 100523.6555,
+              "ensemble_mv": 100643.2964,
+              "ensemble_all": 100583.476,
+              "unit": "Pa"
+            },
+            "RH2m": {
+              "uv_HLSTM_GRU": 83.3556,
+              "uv_GRU": 83.5711,
+              "uv_ANN": 81.8608,
+              "mv_HLSTM_GRU": 80.0427,
+              "mv_GRU": 81.6015,
+              "mv_ANN": 80.1257,
+              "ensemble_uv": 82.9292,
+              "ensemble_mv": 80.59,
+              "ensemble_all": 81.7596,
+              "unit": "%"
+            },
+            "TMP2m": {
+              "uv_HLSTM_GRU": 28.1551,
+              "uv_GRU": 27.3664,
+              "uv_ANN": 26.4456,
+              "mv_HLSTM_GRU": 29.5704,
+              "mv_GRU": 28.5462,
+              "mv_ANN": 28.165,
+              "ensemble_uv": 27.3224,
+              "ensemble_mv": 28.7605,
+              "ensemble_all": 28.0415,
+              "unit": "C"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
