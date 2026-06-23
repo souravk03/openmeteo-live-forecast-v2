@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-06-23T05:32:49.316418",
+  "forecast_date": "2026-06-23",
+  "data_source": "open_meteo_era5",
+  "cities": {
+    "Mumbai": {
+      "lat": 19.11,
+      "lon": 72.85,
+      "forecasts": {
+        "PRmsl": {
+          "uv_HLSTM_GRU": 100650.0427,
+          "uv_GRU": 100641.4952,
+          "uv_ANN": 100623.8864,
+          "mv_HLSTM_GRU": 100652.3251,
+          "mv_GRU": 100564.8695,
+          "mv_ANN": 100560.306,
+          "ensemble_uv": 100638.4748,
+          "ensemble_mv": 100592.5002,
+          "ensemble_all": 100615.4875,
+          "unit": "Pa"
+        },
+        "RH2m": {
+          "uv_HLSTM_GRU": 81.9413,
+          "uv_GRU": 80.5708,
+          "uv_ANN": 82.0418,
+          "mv_HLSTM_GRU": 83.5826,
+          "mv_GRU": 84.3856,
+          "mv_ANN": 81.8034,
+          "ensemble_uv": 81.518,
+          "ensemble_mv": 83.2572,
+          "ensemble_all": 82.3876,
+          "unit": "%"
+        },
+        "TMP2m": {
+          "uv_HLSTM_GRU": 28.1466,
+          "uv_GRU": 28.0549,
+          "uv_ANN": 28.4094,
+          "mv_HLSTM_GRU": 26.6979,
+          "mv_GRU": 27.7372,
+          "mv_ANN": 28.1809,
+          "ensemble_uv": 28.2037,
+          "ensemble_mv": 27.5387,
+          "ensemble_all": 27.8712,
+          "unit": "C"
+        }
+      }
+    },
+    "Delhi": {
+      "lat": 28.61,
+      "lon": 77.2,
+      "forecasts": {
+        "PRmsl": {
+          "uv_HLSTM_GRU": 100057.6378,
+          "uv_GRU": 100103.3912,
+          "uv_ANN": 100364.8961,
+          "mv_HLSTM_GRU": 100347.4934,
+          "mv_GRU": 100291.8918,
+          "mv_ANN": 100220.8904,
+          "ensemble_uv": 100175.3084,
+          "ensemble_mv": 100286.7585,
+          "ensemble_all": 100231.0335,
+          "unit": "Pa"
+        },
+        "RH2m": {
+          "uv_HLSTM_GRU": 69.3295,
+          "uv_GRU": 65.9676,
+          "uv_ANN": 67.6788,
+          "mv_HLSTM_GRU": 64.9121,
+          "mv_GRU": 64.6896,
+          "mv_ANN": 65.588,
+          "ensemble_uv": 67.6586,
+          "ensemble_mv": 65.0632,
+          "ensemble_all": 66.3609,
+          "unit": "%"
+        },
+        "TMP2m": {
+          "uv_HLSTM_GRU": 31.2886,
+          "uv_GRU": 31.8052,
+          "uv_ANN": 30.4816,
+          "mv_HLSTM_GRU": 30.6549,
+          "mv_GRU": 30.4061,
+          "mv_ANN": 32.791,
+          "ensemble_uv": 31.1918,
+          "ensemble_mv": 31.284,
+          "ensemble_all": 31.2379,
+          "unit": "C"
+        }
+      }
+    },
+    "Chennai": {
+      "lat": 13.08,
+      "lon": 80.27,
+      "forecasts": {
+        "PRmsl": {
+          "uv_HLSTM_GRU": 100658.3073,
+          "uv_GRU": 100637.4244,
+          "uv_ANN": 100643.7916,
+          "mv_HLSTM_GRU": 100745.3577,
+          "mv_GRU": 100716.9817,
+          "mv_ANN": 100667.4854,
+          "ensemble_uv": 100646.5078,
+          "ensemble_mv": 100709.9416,
+          "ensemble_all": 100678.2247,
+          "unit": "Pa"
+        },
+        "RH2m": {
+          "uv_HLSTM_GRU": 77.2614,
+          "uv_GRU": 77.9895,
+          "uv_ANN": 78.6182,
+          "mv_HLSTM_GRU": 77.506,
+          "mv_GRU": 80.9204,
+          "mv_ANN": 79.0221,
+          "ensemble_uv": 77.9564,
+          "ensemble_mv": 79.1495,
+          "ensemble_all": 78.5529,
+          "unit": "%"
+        },
+        "TMP2m": {
+          "uv_HLSTM_GRU": 30.1407,
+          "uv_GRU": 28.2952,
+          "uv_ANN": 28.1595,
+          "mv_HLSTM_GRU": 29.6059,
+          "mv_GRU": 28.8261,
+          "mv_ANN": 28.8833,
+          "ensemble_uv": 28.8651,
+          "ensemble_mv": 29.1051,
+          "ensemble_all": 28.9851,
+          "unit": "C"
+        }
+      }
+    }
+  }
+}
