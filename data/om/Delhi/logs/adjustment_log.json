@@ -220,5 +220,32 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-07-13",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.8005,
+          "post_err": 1.2694,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.404,
+          "post_err": 0.5805,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.6323,
+          "post_err": 0.3021,
+          "improved": true
+        }
+      }
+    }
   }
 ]
