@@ -746,5 +746,32 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-07-16",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 3.1235,
+          "post_err": 1.4164,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 4.901,
+          "post_err": 3.653,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 3.8031,
+          "post_err": 2.6093,
+          "improved": true
+        }
+      }
+    }
   }
 ]
