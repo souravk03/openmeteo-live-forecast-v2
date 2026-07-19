@@ -806,5 +806,11 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-07-19",
+    "city": "Mumbai",
+    "adjusted": false,
+    "groups": {}
   }
 ]
