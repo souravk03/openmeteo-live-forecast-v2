@@ -313,5 +313,11 @@
     "city": "Delhi",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-07-25",
+    "city": "Delhi",
+    "adjusted": false,
+    "groups": {}
   }
 ]
