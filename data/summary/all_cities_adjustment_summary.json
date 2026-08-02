@@ -1,62 +1,82 @@
 {
-  "generated_at": "2026-08-02T00:51:10.282779",
+  "generated_at": "2026-08-02T22:48:14.302573",
   "cities": {
     "Mumbai": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
         "PRmsl/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0003,
-            "pre_err": 174.7467,
-            "post_err": 109.0795,
+            "lr": 5e-05,
+            "pre_err": 13.4219,
+            "post_err": 6.2279,
             "improved": true
           },
           "GRU": {
-            "lr": 0.0001,
-            "pre_err": 118.9566,
-            "post_err": 243.9481,
-            "improved": false
+            "lr": 5e-05,
+            "pre_err": 151.1684,
+            "post_err": 28.6075,
+            "improved": true
           },
           "ANN": {
             "lr": 0.0003,
-            "pre_err": 136.8724,
-            "post_err": 212.1621,
+            "pre_err": 279.1141,
+            "post_err": 203.8238,
+            "improved": true
+          }
+        },
+        "PRmsl/mv": {
+          "HLSTM_GRU": {
+            "lr": 0.0003,
+            "pre_err": 32.1891,
+            "post_err": 59.9223,
             "improved": false
+          },
+          "GRU": {
+            "lr": 0.0003,
+            "pre_err": 100.7105,
+            "post_err": 67.7472,
+            "improved": true
+          },
+          "ANN": {
+            "lr": 0.0001,
+            "pre_err": 167.604,
+            "post_err": 148.3051,
+            "improved": true
           }
         }
       }
     },
     "Delhi": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
         "PRmsl/uv": {
           "HLSTM_GRU": {
-            "lr": 0.0001,
-            "pre_err": 81.5968,
-            "post_err": 155.5632,
-            "improved": false
+            "lr": 5e-05,
+            "pre_err": 80.2313,
+            "post_err": 17.3766,
+            "improved": true
           },
           "GRU": {
-            "lr": 5e-05,
-            "pre_err": 17.584,
-            "post_err": 165.1602,
-            "improved": false
+            "lr": 0.0001,
+            "pre_err": 211.7756,
+            "post_err": 88.1614,
+            "improved": true
           },
           "ANN": {
             "lr": 5e-05,
-            "pre_err": 97.3499,
-            "post_err": 143.7433,
-            "improved": false
+            "pre_err": 75.2242,
+            "post_err": 72.7671,
+            "improved": true
           }
         }
       }
