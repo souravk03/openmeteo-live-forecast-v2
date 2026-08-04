@@ -1006,5 +1006,11 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-08-04",
+    "city": "Mumbai",
+    "adjusted": false,
+    "groups": {}
   }
 ]
