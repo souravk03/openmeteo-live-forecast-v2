@@ -3,12 +3,6 @@
     "city": "Chennai",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-06-25T06:02:13.577530"
-  },
-  {
-    "city": "Chennai",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-06-25T06:07:36.772114"
   },
   {
@@ -331,5 +325,11 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-08-11T22:40:42.895812"
+  },
+  {
+    "city": "Chennai",
+    "tuned": false,
+    "groups": {},
+    "timestamp": "2026-08-12T22:41:57.397539"
   }
 ]
