@@ -1402,5 +1402,11 @@
     "city": "Mumbai",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-09-04",
+    "city": "Mumbai",
+    "adjusted": false,
+    "groups": {}
   }
 ]
