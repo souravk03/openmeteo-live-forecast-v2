@@ -3,12 +3,6 @@
     "city": "Mumbai",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-07-19T23:06:51.150410"
-  },
-  {
-    "city": "Mumbai",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-07-20T23:10:06.446851"
   },
   {
@@ -298,5 +292,11 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-09-06T21:49:40.260071"
+  },
+  {
+    "city": "Mumbai",
+    "tuned": false,
+    "groups": {},
+    "timestamp": "2026-09-07T21:47:24.638412"
   }
 ]
