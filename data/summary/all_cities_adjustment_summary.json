@@ -1,61 +1,20 @@
 {
-  "generated_at": "2026-09-08T21:56:19.901471",
+  "generated_at": "2026-09-09T21:55:43.422975",
   "cities": {
     "Mumbai": {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "city": "Mumbai",
       "adjusted": false,
       "groups": {}
     },
     "Delhi": {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "city": "Delhi",
-      "adjusted": true,
-      "groups": {
-        "PRmsl/mv": {
-          "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 175.7973,
-            "post_err": 26.9943,
-            "improved": true
-          },
-          "GRU": {
-            "lr": 5e-05,
-            "pre_err": 128.483,
-            "post_err": 137.99,
-            "improved": false
-          },
-          "ANN": {
-            "lr": 5e-05,
-            "pre_err": 62.5931,
-            "post_err": 15.3516,
-            "improved": true
-          }
-        },
-        "RH2m/mv": {
-          "HLSTM_GRU": {
-            "lr": 0.0001,
-            "pre_err": 2.836,
-            "post_err": 3.8163,
-            "improved": false
-          },
-          "GRU": {
-            "lr": 5e-05,
-            "pre_err": 4.9552,
-            "post_err": 3.3221,
-            "improved": true
-          },
-          "ANN": {
-            "lr": 0.0001,
-            "pre_err": 1.4822,
-            "post_err": 0.7621,
-            "improved": true
-          }
-        }
-      }
+      "adjusted": false,
+      "groups": {}
     },
     "Chennai": {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "city": "Chennai",
       "adjusted": false,
       "groups": {}
