@@ -1480,5 +1480,32 @@
     "city": "Mumbai",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-09-17",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.5636,
+          "post_err": 1.1787,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.541,
+          "post_err": 1.1772,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 0.664,
+          "post_err": 0.8576,
+          "improved": false
+        }
+      }
+    }
   }
 ]
