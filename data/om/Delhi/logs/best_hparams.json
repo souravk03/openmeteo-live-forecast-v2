@@ -1,0 +1,80 @@
+{
+  "PRmsl": {
+    "HLSTM_GRU": {
+      "seq_len": 60,
+      "lr": 9.586676612644394e-05,
+      "wd": 0.0003642704063732534,
+      "batch_size": 16,
+      "dropout": 0.2941641912375171,
+      "val_mse": 1000000000.0
+    },
+    "GRU": {
+      "seq_len": 60,
+      "lr": 0.0007339841376485883,
+      "wd": 0.0002409641146101025,
+      "batch_size": 16,
+      "dropout": 0.28809582871643497,
+      "val_mse": 1000000000.0
+    },
+    "ANN": {
+      "seq_len": 30,
+      "lr": 0.0008263611053549432,
+      "wd": 0.0002390912823686539,
+      "batch_size": 32,
+      "dropout": 0.2470412836620897,
+      "val_mse": 1000000000.0
+    }
+  },
+  "RH2m": {
+    "HLSTM_GRU": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    },
+    "GRU": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    },
+    "ANN": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    }
+  },
+  "TMP2m": {
+    "HLSTM_GRU": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    },
+    "GRU": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    },
+    "ANN": {
+      "seq_len": 60,
+      "lr": 0.0001,
+      "wd": 0.0001,
+      "batch_size": 16,
+      "dropout": 0.0,
+      "val_mse": null
+    }
+  }
+}
