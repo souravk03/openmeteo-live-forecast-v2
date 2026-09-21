@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-09-20T21:38:03.209837",
+  "generated_at": "2026-09-21T21:43:40.190793",
   "cities": {
     "Mumbai": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "city": "Mumbai",
       "adjusted": false,
       "groups": {}
     },
     "Delhi": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "city": "Delhi",
       "adjusted": true,
       "groups": {
         "PRmsl/uv": {
           "HLSTM_GRU": {
             "lr": 5e-05,
-            "pre_err": 310.4977,
-            "post_err": 244.7152,
-            "improved": true
+            "pre_err": 50.1558,
+            "post_err": 77.5896,
+            "improved": false
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 283.6263,
-            "post_err": 241.9454,
-            "improved": true
+            "pre_err": 26.0417,
+            "post_err": 48.0949,
+            "improved": false
           },
           "ANN": {
             "lr": 0.0001,
-            "pre_err": 144.8935,
-            "post_err": 120.4977,
-            "improved": true
+            "pre_err": 128.2673,
+            "post_err": 182.7291,
+            "improved": false
           }
         },
         "PRmsl/mv": {
           "HLSTM_GRU": {
             "lr": 5e-05,
-            "pre_err": 396.8905,
-            "post_err": 384.2187,
+            "pre_err": 183.6017,
+            "post_err": 3.6863,
             "improved": true
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 375.1018,
-            "post_err": 319.9067,
-            "improved": true
+            "pre_err": 53.6833,
+            "post_err": 54.0065,
+            "improved": false
           },
           "ANN": {
             "lr": 5e-05,
-            "pre_err": 319.0039,
-            "post_err": 285.7664,
-            "improved": true
+            "pre_err": 1.2993,
+            "post_err": 74.1854,
+            "improved": false
           }
         }
       }
     },
     "Chennai": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "city": "Chennai",
       "adjusted": false,
       "groups": {}
