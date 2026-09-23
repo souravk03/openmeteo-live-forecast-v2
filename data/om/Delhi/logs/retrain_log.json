@@ -578,5 +578,121 @@
       }
     },
     "timestamp": "2026-09-01T23:07:28.837319"
+  },
+  {
+    "city": "Delhi",
+    "date": "2026-09-23",
+    "reason": "scheduled (day 90)",
+    "models": {
+      "uv/HLSTM_GRU/PRmsl": {
+        "mean_weight_change": 0.001569,
+        "rmse": 147.6122,
+        "mae": 112.9615,
+        "r2": 0.943
+      },
+      "uv/GRU/PRmsl": {
+        "mean_weight_change": 0.003935,
+        "rmse": 150.1008,
+        "mae": 114.2779,
+        "r2": 0.9411
+      },
+      "uv/ANN/PRmsl": {
+        "mean_weight_change": 0.002868,
+        "rmse": 147.8099,
+        "mae": 111.8774,
+        "r2": 0.9428
+      },
+      "mv/HLSTM_GRU/PRmsl": {
+        "mean_weight_change": 0.001589,
+        "rmse": 156.6566,
+        "mae": 119.4993,
+        "r2": 0.9358
+      },
+      "mv/GRU/PRmsl": {
+        "mean_weight_change": 0.003688,
+        "rmse": 145.8017,
+        "mae": 114.6917,
+        "r2": 0.9444
+      },
+      "mv/ANN/PRmsl": {
+        "mean_weight_change": 0.00229,
+        "rmse": 141.9148,
+        "mae": 108.0267,
+        "r2": 0.9473
+      },
+      "uv/HLSTM_GRU/RH2m": {
+        "mean_weight_change": -0.000703,
+        "rmse": 7.2531,
+        "mae": 5.6513,
+        "r2": 0.8748
+      },
+      "uv/GRU/RH2m": {
+        "mean_weight_change": -0.001392,
+        "rmse": 7.2645,
+        "mae": 5.5895,
+        "r2": 0.8744
+      },
+      "uv/ANN/RH2m": {
+        "mean_weight_change": -0.000162,
+        "rmse": 7.2931,
+        "mae": 5.6083,
+        "r2": 0.8734
+      },
+      "mv/HLSTM_GRU/RH2m": {
+        "mean_weight_change": -0.001413,
+        "rmse": 7.1523,
+        "mae": 5.6105,
+        "r2": 0.8782
+      },
+      "mv/GRU/RH2m": {
+        "mean_weight_change": -0.000916,
+        "rmse": 6.9588,
+        "mae": 5.3778,
+        "r2": 0.8847
+      },
+      "mv/ANN/RH2m": {
+        "mean_weight_change": -3.5e-05,
+        "rmse": 6.6524,
+        "mae": 4.8833,
+        "r2": 0.8946
+      },
+      "uv/HLSTM_GRU/TMP2m": {
+        "mean_weight_change": -0.000749,
+        "rmse": 1.6105,
+        "mae": 1.2673,
+        "r2": 0.9268
+      },
+      "uv/GRU/TMP2m": {
+        "mean_weight_change": -0.000658,
+        "rmse": 1.4774,
+        "mae": 1.1177,
+        "r2": 0.9384
+      },
+      "uv/ANN/TMP2m": {
+        "mean_weight_change": -0.000145,
+        "rmse": 1.5136,
+        "mae": 1.1628,
+        "r2": 0.9353
+      },
+      "mv/HLSTM_GRU/TMP2m": {
+        "mean_weight_change": -0.001472,
+        "rmse": 1.5334,
+        "mae": 1.2044,
+        "r2": 0.9336
+      },
+      "mv/GRU/TMP2m": {
+        "mean_weight_change": -0.000563,
+        "rmse": 1.5001,
+        "mae": 1.1532,
+        "r2": 0.9364
+      },
+      "mv/ANN/TMP2m": {
+        "mean_weight_change": -0.000425,
+        "rmse": 1.4757,
+        "mae": 1.1787,
+        "r2": 0.9385
+      }
+    },
+    "timestamp": "2026-09-23T23:10:33.380158"
   }
 ]
