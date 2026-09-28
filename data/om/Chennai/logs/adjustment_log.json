@@ -2178,5 +2178,52 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-09-28",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.2364,
+          "post_err": 15.5656,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 52.8634,
+          "post_err": 28.4998,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 48.3319,
+          "post_err": 39.0698,
+          "improved": true
+        }
+      },
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 131.4577,
+          "post_err": 59.57,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 50.857,
+          "post_err": 139.7621,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 18.332,
+          "post_err": 1.5558,
+          "improved": true
+        }
+      }
+    }
   }
 ]
