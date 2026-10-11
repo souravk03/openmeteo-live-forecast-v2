@@ -3,12 +3,6 @@
     "city": "Delhi",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-08-22T22:16:48.882747"
-  },
-  {
-    "city": "Delhi",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-08-23T22:12:12.537849"
   },
   {
@@ -628,5 +622,11 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-10-10T20:59:43.154673"
+  },
+  {
+    "city": "Delhi",
+    "tuned": false,
+    "groups": {},
+    "timestamp": "2026-10-11T20:56:07.982518"
   }
 ]
