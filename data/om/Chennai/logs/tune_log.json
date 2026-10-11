@@ -3,12 +3,6 @@
     "city": "Chennai",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-08-22T22:17:25.506289"
-  },
-  {
-    "city": "Chennai",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-08-23T22:12:46.238691"
   },
   {
@@ -690,5 +684,44 @@
       }
     },
     "timestamp": "2026-10-10T21:04:20.482939"
+  },
+  {
+    "city": "Chennai",
+    "tuned": true,
+    "groups": {
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "params": {
+            "seq_len": 30,
+            "lr": 4.104676946488856e-05,
+            "wd": 2.24351056945448e-06,
+            "batch_size": 16,
+            "dropout": 0.1757610682326228
+          },
+          "val_mse": 1000000000.0
+        },
+        "GRU": {
+          "params": {
+            "seq_len": 45,
+            "lr": 0.0006166476143222184,
+            "wd": 1.4944329923240645e-05,
+            "batch_size": 16,
+            "dropout": 0.1275269656465026
+          },
+          "val_mse": 1000000000.0
+        },
+        "ANN": {
+          "params": {
+            "seq_len": 60,
+            "lr": 7.558605646272225e-05,
+            "wd": 0.00038890814672264096,
+            "batch_size": 8,
+            "dropout": 0.20469571079192347
+          },
+          "val_mse": 1000000000.0
+        }
+      }
+    },
+    "timestamp": "2026-10-11T20:59:11.668986"
   }
 ]
