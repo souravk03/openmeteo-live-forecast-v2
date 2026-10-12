@@ -3048,5 +3048,112 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-12",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 18.3647,
+          "post_err": 61.0118,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 47.5718,
+          "post_err": 125.6614,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 87.1485,
+          "post_err": 100.6995,
+          "improved": false
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 11.0196,
+          "post_err": 8.7773,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 8.9484,
+          "post_err": 6.993,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 10.0921,
+          "post_err": 7.8088,
+          "improved": true
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 9.2843,
+          "post_err": 7.6985,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 9.6493,
+          "post_err": 7.6795,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 13.6956,
+          "post_err": 11.0297,
+          "improved": true
+        }
+      },
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.0146,
+          "post_err": 0.2236,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.1487,
+          "post_err": 0.2758,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.6399,
+          "post_err": 0.8841,
+          "improved": false
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.4403,
+          "post_err": 0.4043,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 0.525,
+          "post_err": 1.0489,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 1.0259,
+          "post_err": 0.8375,
+          "improved": true
+        }
+      }
+    }
   }
 ]
