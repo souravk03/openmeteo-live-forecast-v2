@@ -3,12 +3,6 @@
     "city": "Delhi",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-08-23T22:12:12.537849"
-  },
-  {
-    "city": "Delhi",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-08-24T23:26:12.335757"
   },
   {
@@ -628,5 +622,44 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-10-11T20:56:07.982518"
+  },
+  {
+    "city": "Delhi",
+    "tuned": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "params": {
+            "seq_len": 30,
+            "lr": 8.434880650217167e-05,
+            "wd": 5.595313513532881e-06,
+            "batch_size": 16,
+            "dropout": 0.18611836091168193
+          },
+          "val_mse": 1000000000.0
+        },
+        "GRU": {
+          "params": {
+            "seq_len": 90,
+            "lr": 0.0014508571453623739,
+            "wd": 3.3269062791746657e-06,
+            "batch_size": 8,
+            "dropout": 0.060198685309867404
+          },
+          "val_mse": 1000000000.0
+        },
+        "ANN": {
+          "params": {
+            "seq_len": 60,
+            "lr": 6.1008097124842195e-05,
+            "wd": 0.00010590772159021897,
+            "batch_size": 32,
+            "dropout": 0.11947473761890182
+          },
+          "val_mse": 1000000000.0
+        }
+      }
+    },
+    "timestamp": "2026-10-12T20:59:02.830746"
   }
 ]
