@@ -2336,5 +2336,11 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-14",
+    "city": "Delhi",
+    "adjusted": false,
+    "groups": {}
   }
 ]
