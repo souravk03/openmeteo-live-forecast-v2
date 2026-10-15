@@ -3077,5 +3077,92 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-15",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 166.8507,
+          "post_err": 146.2855,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 200.6551,
+          "post_err": 130.6619,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 170.8156,
+          "post_err": 160.2926,
+          "improved": true
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 8.4124,
+          "post_err": 6.7547,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 13.9192,
+          "post_err": 12.9224,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 7.9316,
+          "post_err": 9.3112,
+          "improved": false
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 25.51,
+          "post_err": 18.4061,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 11.3641,
+          "post_err": 12.0873,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 10.0307,
+          "post_err": 10.5278,
+          "improved": false
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.1208,
+          "post_err": 1.2863,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.0997,
+          "post_err": 1.3916,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 1.6285,
+          "post_err": 1.4896,
+          "improved": true
+        }
+      }
+    }
   }
 ]
