@@ -2416,5 +2416,52 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-17",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 2.6303,
+          "post_err": 2.2789,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.6024,
+          "post_err": 0.5893,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.3748,
+          "post_err": 0.1205,
+          "improved": true
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.1325,
+          "post_err": 0.2817,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.1664,
+          "post_err": 0.8824,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.1154,
+          "post_err": 0.1641,
+          "improved": false
+        }
+      }
+    }
   }
 ]
