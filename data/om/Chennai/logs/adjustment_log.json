@@ -3405,5 +3405,92 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-19",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 42.9893,
+          "post_err": 42.5746,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 78.5485,
+          "post_err": 30.1857,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 48.6174,
+          "post_err": 37.6301,
+          "improved": true
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 3.3696,
+          "post_err": 0.076,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.1803,
+          "post_err": 1.9553,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 3.936,
+          "post_err": 3.0046,
+          "improved": true
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 16.546,
+          "post_err": 6.2549,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 6.8144,
+          "post_err": 7.3317,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 1.1362,
+          "post_err": 2.6429,
+          "improved": false
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.9346,
+          "post_err": 0.8076,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.4166,
+          "post_err": 0.1832,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.1837,
+          "post_err": 0.1318,
+          "improved": true
+        }
+      }
+    }
   }
 ]
