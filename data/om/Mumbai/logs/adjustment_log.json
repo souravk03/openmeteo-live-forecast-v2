@@ -3524,5 +3524,92 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-20",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 252.3294,
+          "post_err": 185.9228,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 149.0564,
+          "post_err": 1.2667,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 112.9827,
+          "post_err": 35.8677,
+          "improved": true
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 13.2561,
+          "post_err": 13.3506,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 15.4738,
+          "post_err": 13.2189,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 13.4586,
+          "post_err": 9.8822,
+          "improved": true
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 9.8816,
+          "post_err": 9.9155,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 14.2114,
+          "post_err": 14.4499,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 9.0848,
+          "post_err": 10.3378,
+          "improved": false
+        }
+      },
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.2904,
+          "post_err": 0.3444,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.6665,
+          "post_err": 0.0454,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 1.1531,
+          "post_err": 1.7355,
+          "improved": false
+        }
+      }
+    }
   }
 ]
