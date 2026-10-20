@@ -1,202 +1,182 @@
 {
-  "generated_at": "2026-10-19T20:52:45.468121",
+  "generated_at": "2026-10-20T20:40:12.034342",
   "cities": {
     "Mumbai": {
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
         "PRmsl/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0003,
-            "pre_err": 179.7585,
-            "post_err": 215.4339,
-            "improved": false
+            "lr": 5e-05,
+            "pre_err": 252.3294,
+            "post_err": 185.9228,
+            "improved": true
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 30.9292,
-            "post_err": 118.3845,
-            "improved": false
+            "pre_err": 149.0564,
+            "post_err": 1.2667,
+            "improved": true
           },
           "ANN": {
-            "lr": 0.0003,
-            "pre_err": 29.0679,
-            "post_err": 75.9861,
-            "improved": false
+            "lr": 5e-05,
+            "pre_err": 112.9827,
+            "post_err": 35.8677,
+            "improved": true
           }
         },
         "RH2m/uv": {
           "HLSTM_GRU": {
             "lr": 5e-05,
-            "pre_err": 1.7532,
-            "post_err": 2.665,
+            "pre_err": 13.2561,
+            "post_err": 13.3506,
             "improved": false
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 2.4607,
-            "post_err": 0.5013,
+            "pre_err": 15.4738,
+            "post_err": 13.2189,
             "improved": true
           },
           "ANN": {
-            "lr": 5e-05,
-            "pre_err": 3.0346,
-            "post_err": 0.2904,
+            "lr": 0.0001,
+            "pre_err": 13.4586,
+            "post_err": 9.8822,
             "improved": true
           }
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 0.8188,
-            "post_err": 8.2238,
+            "lr": 0.0003,
+            "pre_err": 9.8816,
+            "post_err": 9.9155,
             "improved": false
           },
           "GRU": {
-            "lr": 5e-05,
-            "pre_err": 10.5236,
-            "post_err": 5.6717,
+            "lr": 0.0001,
+            "pre_err": 14.2114,
+            "post_err": 14.4499,
+            "improved": false
+          },
+          "ANN": {
+            "lr": 0.0001,
+            "pre_err": 9.0848,
+            "post_err": 10.3378,
+            "improved": false
+          }
+        },
+        "TMP2m/uv": {
+          "HLSTM_GRU": {
+            "lr": 0.0001,
+            "pre_err": 0.2904,
+            "post_err": 0.3444,
+            "improved": false
+          },
+          "GRU": {
+            "lr": 0.0001,
+            "pre_err": 1.6665,
+            "post_err": 0.0454,
             "improved": true
           },
           "ANN": {
-            "lr": 0.0003,
-            "pre_err": 3.1387,
-            "post_err": 3.7145,
+            "lr": 0.0001,
+            "pre_err": 1.1531,
+            "post_err": 1.7355,
             "improved": false
           }
         }
       }
     },
     "Delhi": {
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "city": "Delhi",
       "adjusted": true,
       "groups": {
         "TMP2m/uv": {
           "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 3.7862,
-            "post_err": 3.0834,
+            "lr": 0.0003,
+            "pre_err": 3.5205,
+            "post_err": 0.8516,
             "improved": true
           },
           "GRU": {
             "lr": 0.0001,
-            "pre_err": 1.6959,
-            "post_err": 1.6265,
+            "pre_err": 1.6573,
+            "post_err": 1.1179,
             "improved": true
           },
           "ANN": {
             "lr": 5e-05,
-            "pre_err": 0.7753,
-            "post_err": 1.2646,
-            "improved": false
-          }
-        },
-        "TMP2m/mv": {
-          "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 1.6343,
-            "post_err": 1.1787,
-            "improved": true
-          },
-          "GRU": {
-            "lr": 0.0001,
-            "pre_err": 2.1503,
-            "post_err": 1.8226,
-            "improved": true
-          },
-          "ANN": {
-            "lr": 0.0001,
-            "pre_err": 0.6052,
-            "post_err": 0.0096,
+            "pre_err": 0.5387,
+            "post_err": 0.457,
             "improved": true
           }
         }
       }
     },
     "Chennai": {
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "city": "Chennai",
       "adjusted": true,
       "groups": {
-        "PRmsl/uv": {
-          "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 42.9893,
-            "post_err": 42.5746,
-            "improved": true
-          },
-          "GRU": {
-            "lr": 5e-05,
-            "pre_err": 78.5485,
-            "post_err": 30.1857,
-            "improved": true
-          },
-          "ANN": {
-            "lr": 0.0003,
-            "pre_err": 48.6174,
-            "post_err": 37.6301,
-            "improved": true
-          }
-        },
         "RH2m/uv": {
           "HLSTM_GRU": {
             "lr": 5e-05,
-            "pre_err": 3.3696,
-            "post_err": 0.076,
-            "improved": true
-          },
-          "GRU": {
-            "lr": 0.0001,
-            "pre_err": 1.1803,
-            "post_err": 1.9553,
+            "pre_err": 0.3309,
+            "post_err": 1.0233,
             "improved": false
           },
-          "ANN": {
+          "GRU": {
             "lr": 5e-05,
-            "pre_err": 3.936,
-            "post_err": 3.0046,
+            "pre_err": 2.1188,
+            "post_err": 0.9133,
+            "improved": true
+          },
+          "ANN": {
+            "lr": 0.0001,
+            "pre_err": 2.8329,
+            "post_err": 2.3886,
             "improved": true
           }
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0003,
-            "pre_err": 16.546,
-            "post_err": 6.2549,
+            "lr": 5e-05,
+            "pre_err": 5.072,
+            "post_err": 0.6073,
             "improved": true
           },
           "GRU": {
-            "lr": 0.0001,
-            "pre_err": 6.8144,
-            "post_err": 7.3317,
-            "improved": false
+            "lr": 5e-05,
+            "pre_err": 8.2525,
+            "post_err": 0.4948,
+            "improved": true
           },
           "ANN": {
-            "lr": 5e-05,
-            "pre_err": 1.1362,
-            "post_err": 2.6429,
-            "improved": false
+            "lr": 0.0001,
+            "pre_err": 0.9606,
+            "post_err": 0.8544,
+            "improved": true
           }
         },
         "TMP2m/mv": {
           "HLSTM_GRU": {
-            "lr": 0.0001,
-            "pre_err": 0.9346,
-            "post_err": 0.8076,
+            "lr": 5e-05,
+            "pre_err": 1.2853,
+            "post_err": 0.2509,
             "improved": true
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 0.4166,
-            "post_err": 0.1832,
+            "pre_err": 0.7568,
+            "post_err": 0.6021,
             "improved": true
           },
           "ANN": {
-            "lr": 5e-05,
-            "pre_err": 0.1837,
-            "post_err": 0.1318,
+            "lr": 0.0001,
+            "pre_err": 0.7676,
+            "post_err": 0.2788,
             "improved": true
           }
         }
