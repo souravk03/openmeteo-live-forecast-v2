@@ -2557,5 +2557,32 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-20",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 3.5205,
+          "post_err": 0.8516,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.6573,
+          "post_err": 1.1179,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.5387,
+          "post_err": 0.457,
+          "improved": true
+        }
+      }
+    }
   }
 ]
