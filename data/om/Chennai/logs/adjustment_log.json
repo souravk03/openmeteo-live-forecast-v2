@@ -3606,5 +3606,52 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-22",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.2478,
+          "post_err": 0.2594,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 9.4759,
+          "post_err": 4.8446,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.7806,
+          "post_err": 0.2291,
+          "improved": true
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.2592,
+          "post_err": 0.4205,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.6429,
+          "post_err": 2.7903,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.4583,
+          "post_err": 0.2163,
+          "improved": true
+        }
+      }
+    }
   }
 ]
