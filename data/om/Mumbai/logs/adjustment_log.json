@@ -3698,5 +3698,72 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-22",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 1.1187,
+          "post_err": 3.9391,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.4735,
+          "post_err": 0.6261,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 1.7282,
+          "post_err": 0.6782,
+          "improved": true
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 3.2521,
+          "post_err": 6.824,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.7074,
+          "post_err": 3.5698,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 0.0797,
+          "post_err": 0.8391,
+          "improved": false
+        }
+      },
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.6312,
+          "post_err": 0.5274,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 0.4897,
+          "post_err": 0.5462,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.1168,
+          "post_err": 0.4147,
+          "improved": false
+        }
+      }
+    }
   }
 ]
