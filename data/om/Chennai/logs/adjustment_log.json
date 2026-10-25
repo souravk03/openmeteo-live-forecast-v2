@@ -3707,5 +3707,11 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-25",
+    "city": "Chennai",
+    "adjusted": false,
+    "groups": {}
   }
 ]
