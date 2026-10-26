@@ -3713,5 +3713,32 @@
     "city": "Chennai",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-10-26",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 2.253,
+          "post_err": 0.2882,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.6431,
+          "post_err": 0.6436,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.4119,
+          "post_err": 0.1538,
+          "improved": true
+        }
+      }
+    }
   }
 ]
