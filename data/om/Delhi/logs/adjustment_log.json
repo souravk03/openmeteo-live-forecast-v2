@@ -2635,5 +2635,52 @@
     "city": "Delhi",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-10-26",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 22.5299,
+          "post_err": 207.5402,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 142.987,
+          "post_err": 172.7206,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 172.1104,
+          "post_err": 232.4945,
+          "improved": false
+        }
+      },
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 108.4317,
+          "post_err": 85.8406,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 9.0169,
+          "post_err": 139.041,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 273.1463,
+          "post_err": 252.2776,
+          "improved": true
+        }
+      }
+    }
   }
 ]
