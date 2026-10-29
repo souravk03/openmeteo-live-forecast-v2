@@ -3914,5 +3914,92 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-10-29",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 249.1563,
+          "post_err": 232.9694,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 208.3673,
+          "post_err": 226.9959,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 313.4779,
+          "post_err": 339.4146,
+          "improved": false
+        }
+      },
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 114.2008,
+          "post_err": 240.5046,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 315.8373,
+          "post_err": 419.6163,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 510.3875,
+          "post_err": 478.8398,
+          "improved": true
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0001,
+          "pre_err": 6.3063,
+          "post_err": 8.0178,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 7.7502,
+          "post_err": 13.4829,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 14.8288,
+          "post_err": 16.7809,
+          "improved": false
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 5.9073,
+          "post_err": 5.5395,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 6.9488,
+          "post_err": 13.2753,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0003,
+          "pre_err": 18.9494,
+          "post_err": 14.2939,
+          "improved": true
+        }
+      }
+    }
   }
 ]
