@@ -4262,5 +4262,112 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-11-02",
+    "city": "Chennai",
+    "adjusted": true,
+    "groups": {
+      "PRmsl/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 52.5389,
+          "post_err": 44.135,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 86.2488,
+          "post_err": 8.9109,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 140.751,
+          "post_err": 144.7261,
+          "improved": false
+        }
+      },
+      "PRmsl/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 66.0068,
+          "post_err": 73.082,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 3.371,
+          "post_err": 39.748,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 69.2981,
+          "post_err": 49.0422,
+          "improved": true
+        }
+      },
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 19.8174,
+          "post_err": 15.5582,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0001,
+          "pre_err": 15.1032,
+          "post_err": 16.6655,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 16.3711,
+          "post_err": 16.6992,
+          "improved": false
+        }
+      },
+      "RH2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 14.8758,
+          "post_err": 16.6081,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 16.0803,
+          "post_err": 19.7644,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 18.7647,
+          "post_err": 21.3483,
+          "improved": false
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 3.0746,
+          "post_err": 4.5543,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 2.6145,
+          "post_err": 3.9867,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 0.0001,
+          "pre_err": 2.7554,
+          "post_err": 2.4038,
+          "improved": true
+        }
+      }
+    }
   }
 ]
