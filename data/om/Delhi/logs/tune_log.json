@@ -1,12 +1,6 @@
 [
   {
     "city": "Delhi",
-    "tuned": false,
-    "groups": {},
-    "timestamp": "2026-09-19T21:43:25.318385"
-  },
-  {
-    "city": "Delhi",
     "tuned": true,
     "groups": {
       "PRmsl/mv": {
@@ -661,5 +655,11 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-11-07T20:31:17.893617"
+  },
+  {
+    "city": "Delhi",
+    "tuned": false,
+    "groups": {},
+    "timestamp": "2026-11-08T20:42:32.289229"
   }
 ]
