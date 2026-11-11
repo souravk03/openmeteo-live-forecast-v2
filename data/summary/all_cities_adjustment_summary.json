@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-11-10T20:44:51.842769",
+  "generated_at": "2026-11-11T20:42:28.009673",
   "cities": {
     "Mumbai": {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "city": "Mumbai",
       "adjusted": true,
       "groups": {
         "RH2m/uv": {
           "HLSTM_GRU": {
             "lr": 5e-05,
-            "pre_err": 7.1353,
-            "post_err": 0.3462,
+            "pre_err": 9.2476,
+            "post_err": 5.7447,
             "improved": true
           },
           "GRU": {
             "lr": 0.0001,
-            "pre_err": 4.0558,
-            "post_err": 3.679,
+            "pre_err": 11.4647,
+            "post_err": 11.1102,
             "improved": true
           },
           "ANN": {
             "lr": 5e-05,
-            "pre_err": 1.513,
-            "post_err": 3.8718,
-            "improved": false
+            "pre_err": 2.1543,
+            "post_err": 1.1683,
+            "improved": true
           }
         },
         "RH2m/mv": {
           "HLSTM_GRU": {
-            "lr": 5e-05,
-            "pre_err": 6.4185,
-            "post_err": 0.2247,
+            "lr": 0.0003,
+            "pre_err": 10.1418,
+            "post_err": 9.5432,
             "improved": true
           },
           "GRU": {
             "lr": 5e-05,
-            "pre_err": 3.5046,
-            "post_err": 2.4318,
-            "improved": true
+            "pre_err": 9.5976,
+            "post_err": 9.6016,
+            "improved": false
           },
           "ANN": {
             "lr": 5e-05,
-            "pre_err": 5.6372,
-            "post_err": 2.8522,
+            "pre_err": 4.9366,
+            "post_err": 4.1695,
             "improved": true
           }
         }
       }
     },
     "Delhi": {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "city": "Delhi",
       "adjusted": false,
       "groups": {}
     },
     "Chennai": {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "city": "Chennai",
       "adjusted": false,
       "groups": {}
