@@ -1,359 +1,359 @@
 {
-  "generated_at": "2026-11-14T20:27:02.457775",
+  "generated_at": "2026-11-15T20:35:36.280515",
   "cities": {
     "Mumbai": {
-      "verified_rows": 429,
+      "verified_rows": 432,
       "per_target": {
         "PRmsl": {
           "uv_HLSTM_GRU": {
-            "mae_all": 84.4467,
-            "mae_last7": 98.3415
+            "mae_all": 85.356,
+            "mae_last7": 119.8609
           },
           "uv_GRU": {
-            "mae_all": 98.7744,
-            "mae_last7": 129.7659
+            "mae_all": 98.5613,
+            "mae_last7": 122.2181
           },
           "uv_ANN": {
-            "mae_all": 85.0903,
-            "mae_last7": 89.1372
+            "mae_all": 84.5391,
+            "mae_last7": 77.8726
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 106.8438,
-            "mae_last7": 60.0159
+            "mae_all": 106.8067,
+            "mae_last7": 58.9179
           },
           "mv_GRU": {
-            "mae_all": 88.8424,
-            "mae_last7": 87.8094
+            "mae_all": 88.333,
+            "mae_last7": 72.3276
           },
           "mv_ANN": {
-            "mae_all": 84.5697,
-            "mae_last7": 63.0947
+            "mae_all": 84.2677,
+            "mae_last7": 60.9153
           },
           "ensemble_uv": {
-            "mae_all": 78.7194,
-            "mae_last7": 52.0277
+            "mae_all": 78.5004,
+            "mae_last7": 52.0672
           },
           "ensemble_mv": {
-            "mae_all": 87.1952,
-            "mae_last7": 65.9518
+            "mae_all": 86.9556,
+            "mae_last7": 59.6987
           },
           "ensemble_all": {
-            "mae_all": 78.1443,
-            "mae_last7": 58.9898
+            "mae_all": 77.9484,
+            "mae_last7": 55.8829
           }
         },
         "RH2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 4.5465,
-            "mae_last7": 7.6896
+            "mae_all": 4.5625,
+            "mae_last7": 6.5314
           },
           "uv_GRU": {
-            "mae_all": 4.2374,
-            "mae_last7": 6.2617
+            "mae_all": 4.2144,
+            "mae_last7": 5.3434
           },
           "uv_ANN": {
-            "mae_all": 4.5569,
-            "mae_last7": 3.4434
+            "mae_all": 4.5308,
+            "mae_last7": 3.3301
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 4.2427,
-            "mae_last7": 8.8675
+            "mae_all": 4.2508,
+            "mae_last7": 8.8968
           },
           "mv_GRU": {
-            "mae_all": 3.9097,
-            "mae_last7": 6.1758
+            "mae_all": 3.8881,
+            "mae_last7": 5.3286
           },
           "mv_ANN": {
-            "mae_all": 4.0633,
-            "mae_last7": 6.758
+            "mae_all": 4.1039,
+            "mae_last7": 6.9849
           },
           "ensemble_uv": {
-            "mae_all": 4.1894,
-            "mae_last7": 4.9334
+            "mae_all": 4.1765,
+            "mae_last7": 4.128
           },
           "ensemble_mv": {
-            "mae_all": 3.8686,
-            "mae_last7": 5.7738
+            "mae_all": 3.854,
+            "mae_last7": 5.0608
           },
           "ensemble_all": {
-            "mae_all": 3.9158,
-            "mae_last7": 4.8929
+            "mae_all": 3.9028,
+            "mae_last7": 4.1337
           }
         },
         "TMP2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 0.757,
-            "mae_last7": 3.0561
+            "mae_all": 0.7643,
+            "mae_last7": 3.1375
           },
           "uv_GRU": {
-            "mae_all": 0.6426,
-            "mae_last7": 0.5849
+            "mae_all": 0.6458,
+            "mae_last7": 0.6046
           },
           "uv_ANN": {
-            "mae_all": 0.5176,
-            "mae_last7": 0.4077
+            "mae_all": 0.5201,
+            "mae_last7": 0.4758
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 0.7148,
-            "mae_last7": 0.6504
+            "mae_all": 0.721,
+            "mae_last7": 0.8568
           },
           "mv_GRU": {
             "mae_all": 0.6051,
-            "mae_last7": 0.2324
+            "mae_last7": 0.3149
           },
           "mv_ANN": {
-            "mae_all": 0.4675,
-            "mae_last7": 0.2768
+            "mae_all": 0.4698,
+            "mae_last7": 0.3861
           },
           "ensemble_uv": {
-            "mae_all": 0.5651,
-            "mae_last7": 0.8642
+            "mae_all": 0.5699,
+            "mae_last7": 1.0384
           },
           "ensemble_mv": {
-            "mae_all": 0.5006,
-            "mae_last7": 0.2855
+            "mae_all": 0.504,
+            "mae_last7": 0.4202
           },
           "ensemble_all": {
-            "mae_all": 0.5029,
-            "mae_last7": 0.5441
+            "mae_all": 0.5073,
+            "mae_last7": 0.7054
           }
         }
       }
     },
     "Delhi": {
-      "verified_rows": 429,
+      "verified_rows": 432,
       "per_target": {
         "PRmsl": {
           "uv_HLSTM_GRU": {
-            "mae_all": 121.1383,
-            "mae_last7": 79.4581
+            "mae_all": 121.0583,
+            "mae_last7": 68.5889
           },
           "uv_GRU": {
-            "mae_all": 132.372,
-            "mae_last7": 83.9922
+            "mae_all": 131.8848,
+            "mae_last7": 65.8924
           },
           "uv_ANN": {
-            "mae_all": 106.9983,
-            "mae_last7": 89.8819
+            "mae_all": 107.5912,
+            "mae_last7": 104.1218
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 137.5789,
-            "mae_last7": 76.8696
+            "mae_all": 137.7052,
+            "mae_last7": 82.6212
           },
           "mv_GRU": {
-            "mae_all": 150.8453,
-            "mae_last7": 73.8916
+            "mae_all": 150.4616,
+            "mae_last7": 65.8005
           },
           "mv_ANN": {
-            "mae_all": 102.0168,
-            "mae_last7": 74.3757
+            "mae_all": 102.0345,
+            "mae_last7": 72.5357
           },
           "ensemble_uv": {
-            "mae_all": 112.7549,
-            "mae_last7": 80.237
+            "mae_all": 112.8149,
+            "mae_last7": 75.3273
           },
           "ensemble_mv": {
-            "mae_all": 109.144,
-            "mae_last7": 73.1615
+            "mae_all": 109.2099,
+            "mae_last7": 71.7683
           },
           "ensemble_all": {
-            "mae_all": 95.8177,
-            "mae_last7": 76.6992
+            "mae_all": 95.9858,
+            "mae_last7": 73.5478
           }
         },
         "RH2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 5.3501,
-            "mae_last7": 4.7424
+            "mae_all": 5.3601,
+            "mae_last7": 5.2027
           },
           "uv_GRU": {
-            "mae_all": 5.2241,
-            "mae_last7": 6.3073
+            "mae_all": 5.2505,
+            "mae_last7": 6.7846
           },
           "uv_ANN": {
-            "mae_all": 4.8618,
-            "mae_last7": 3.0609
+            "mae_all": 4.8526,
+            "mae_last7": 3.3501
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 5.0613,
-            "mae_last7": 2.5596
+            "mae_all": 5.0392,
+            "mae_last7": 2.5349
           },
           "mv_GRU": {
-            "mae_all": 4.7741,
-            "mae_last7": 2.3985
+            "mae_all": 4.7484,
+            "mae_last7": 2.112
           },
           "mv_ANN": {
-            "mae_all": 4.874,
-            "mae_last7": 2.0612
+            "mae_all": 4.8614,
+            "mae_last7": 2.4255
           },
           "ensemble_uv": {
-            "mae_all": 5.1038,
-            "mae_last7": 4.7035
+            "mae_all": 5.1132,
+            "mae_last7": 5.1125
           },
           "ensemble_mv": {
-            "mae_all": 4.7061,
-            "mae_last7": 2.2213
+            "mae_all": 4.6873,
+            "mae_last7": 2.2875
           },
           "ensemble_all": {
-            "mae_all": 4.8195,
-            "mae_last7": 2.8241
+            "mae_all": 4.8154,
+            "mae_last7": 3.2818
           }
         },
         "TMP2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 1.2421,
-            "mae_last7": 0.6904
+            "mae_all": 1.2342,
+            "mae_last7": 0.6503
           },
           "uv_GRU": {
-            "mae_all": 1.1186,
-            "mae_last7": 0.403
+            "mae_all": 1.1177,
+            "mae_last7": 0.4675
           },
           "uv_ANN": {
-            "mae_all": 1.0294,
-            "mae_last7": 0.4215
+            "mae_all": 1.0304,
+            "mae_last7": 0.511
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 1.0981,
-            "mae_last7": 1.1984
+            "mae_all": 1.0935,
+            "mae_last7": 1.0986
           },
           "mv_GRU": {
-            "mae_all": 1.1572,
-            "mae_last7": 1.0271
+            "mae_all": 1.1496,
+            "mae_last7": 0.8748
           },
           "mv_ANN": {
-            "mae_all": 1.0646,
-            "mae_last7": 0.7178
+            "mae_all": 1.0585,
+            "mae_last7": 0.6474
           },
           "ensemble_uv": {
-            "mae_all": 1.0133,
-            "mae_last7": 0.4725
+            "mae_all": 1.0115,
+            "mae_last7": 0.5104
           },
           "ensemble_mv": {
-            "mae_all": 1.0766,
-            "mae_last7": 0.9811
+            "mae_all": 1.0707,
+            "mae_last7": 0.8736
           },
           "ensemble_all": {
-            "mae_all": 1.0192,
-            "mae_last7": 0.6813
+            "mae_all": 1.0139,
+            "mae_last7": 0.6143
           }
         }
       }
     },
     "Chennai": {
-      "verified_rows": 429,
+      "verified_rows": 432,
       "per_target": {
         "PRmsl": {
           "uv_HLSTM_GRU": {
-            "mae_all": 75.43,
-            "mae_last7": 52.911
+            "mae_all": 75.5267,
+            "mae_last7": 61.1398
           },
           "uv_GRU": {
-            "mae_all": 94.3588,
-            "mae_last7": 158.5006
+            "mae_all": 94.2055,
+            "mae_last7": 138.3038
           },
           "uv_ANN": {
-            "mae_all": 72.5735,
-            "mae_last7": 50.0292
+            "mae_all": 72.5715,
+            "mae_last7": 54.9792
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 89.7182,
-            "mae_last7": 83.7171
+            "mae_all": 90.3959,
+            "mae_last7": 104.4345
           },
           "mv_GRU": {
-            "mae_all": 80.4864,
-            "mae_last7": 98.3651
+            "mae_all": 80.5079,
+            "mae_last7": 95.3194
           },
           "mv_ANN": {
-            "mae_all": 76.0377,
-            "mae_last7": 77.2746
+            "mae_all": 75.9049,
+            "mae_last7": 71.9759
           },
           "ensemble_uv": {
-            "mae_all": 71.4589,
-            "mae_last7": 55.6749
+            "mae_all": 71.1695,
+            "mae_last7": 49.4754
           },
           "ensemble_mv": {
-            "mae_all": 74.1798,
-            "mae_last7": 63.743
+            "mae_all": 74.4235,
+            "mae_last7": 67.8673
           },
           "ensemble_all": {
-            "mae_all": 68.938,
-            "mae_last7": 57.9944
+            "mae_all": 68.7353,
+            "mae_last7": 52.7016
           }
         },
         "RH2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 5.3391,
-            "mae_last7": 4.214
+            "mae_all": 5.3209,
+            "mae_last7": 4.1355
           },
           "uv_GRU": {
-            "mae_all": 4.6547,
-            "mae_last7": 2.5845
+            "mae_all": 4.6397,
+            "mae_last7": 2.5725
           },
           "uv_ANN": {
-            "mae_all": 4.8666,
-            "mae_last7": 3.3481
+            "mae_all": 4.8361,
+            "mae_last7": 2.8917
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 5.5899,
-            "mae_last7": 2.9384
+            "mae_all": 5.5637,
+            "mae_last7": 2.8656
           },
           "mv_GRU": {
-            "mae_all": 5.0038,
-            "mae_last7": 2.4872
+            "mae_all": 4.9828,
+            "mae_last7": 2.667
           },
           "mv_ANN": {
-            "mae_all": 5.0146,
-            "mae_last7": 5.3795
+            "mae_all": 4.982,
+            "mae_last7": 4.2825
           },
           "ensemble_uv": {
-            "mae_all": 4.8713,
-            "mae_last7": 3.348
+            "mae_all": 4.8391,
+            "mae_last7": 2.9289
           },
           "ensemble_mv": {
-            "mae_all": 4.965,
-            "mae_last7": 3.5266
+            "mae_all": 4.9385,
+            "mae_last7": 3.1655
           },
           "ensemble_all": {
-            "mae_all": 4.8201,
-            "mae_last7": 3.3444
+            "mae_all": 4.7898,
+            "mae_last7": 2.9203
           }
         },
         "TMP2m": {
           "uv_HLSTM_GRU": {
-            "mae_all": 0.8627,
-            "mae_last7": 1.0376
+            "mae_all": 0.857,
+            "mae_last7": 0.8917
           },
           "uv_GRU": {
-            "mae_all": 0.721,
-            "mae_last7": 0.5477
+            "mae_all": 0.7169,
+            "mae_last7": 0.462
           },
           "uv_ANN": {
-            "mae_all": 0.7436,
-            "mae_last7": 0.364
+            "mae_all": 0.7415,
+            "mae_last7": 0.3844
           },
           "mv_HLSTM_GRU": {
-            "mae_all": 0.8084,
-            "mae_last7": 0.3618
+            "mae_all": 0.8082,
+            "mae_last7": 0.401
           },
           "mv_GRU": {
-            "mae_all": 0.7868,
-            "mae_last7": 0.4368
+            "mae_all": 0.7905,
+            "mae_last7": 0.616
           },
           "mv_ANN": {
-            "mae_all": 0.7896,
-            "mae_last7": 0.7529
+            "mae_all": 0.7847,
+            "mae_last7": 0.6621
           },
           "ensemble_uv": {
-            "mae_all": 0.7346,
-            "mae_last7": 0.6307
+            "mae_all": 0.7307,
+            "mae_last7": 0.5562
           },
           "ensemble_mv": {
-            "mae_all": 0.7447,
-            "mae_last7": 0.2732
+            "mae_all": 0.7442,
+            "mae_last7": 0.3558
           },
           "ensemble_all": {
-            "mae_all": 0.7225,
-            "mae_last7": 0.3658
+            "mae_all": 0.7204,
+            "mae_last7": 0.3698
           }
         }
       }
