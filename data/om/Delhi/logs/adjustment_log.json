@@ -3163,5 +3163,32 @@
     "city": "Delhi",
     "adjusted": false,
     "groups": {}
+  },
+  {
+    "date": "2026-11-18",
+    "city": "Delhi",
+    "adjusted": true,
+    "groups": {
+      "RH2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 6.3671,
+          "post_err": 1.5566,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 9.0782,
+          "post_err": 4.4191,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 1.5196,
+          "post_err": 0.0866,
+          "improved": true
+        }
+      }
+    }
   }
 ]
