@@ -3,12 +3,6 @@
     "city": "Mumbai",
     "tuned": false,
     "groups": {},
-    "timestamp": "2026-10-02T21:23:05.571655"
-  },
-  {
-    "city": "Mumbai",
-    "tuned": false,
-    "groups": {},
     "timestamp": "2026-10-03T21:11:41.225747"
   },
   {
@@ -3666,5 +3660,44 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-11-20T20:36:41.476034"
+  },
+  {
+    "city": "Mumbai",
+    "tuned": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "params": {
+            "seq_len": 60,
+            "lr": 0.0011103144970836475,
+            "wd": 0.00022229231859458219,
+            "batch_size": 16,
+            "dropout": 0.10816045333490336
+          },
+          "val_mse": 1000000000.0
+        },
+        "GRU": {
+          "params": {
+            "seq_len": 60,
+            "lr": 0.0006888347491925842,
+            "wd": 9.009599210829997e-06,
+            "batch_size": 16,
+            "dropout": 0.15052210358677823
+          },
+          "val_mse": 1000000000.0
+        },
+        "ANN": {
+          "params": {
+            "seq_len": 90,
+            "lr": 0.0010198026711678166,
+            "wd": 2.271800612792424e-06,
+            "batch_size": 16,
+            "dropout": 0.052008714599080096
+          },
+          "val_mse": 1000000000.0
+        }
+      }
+    },
+    "timestamp": "2026-11-21T20:39:57.210629"
   }
 ]
