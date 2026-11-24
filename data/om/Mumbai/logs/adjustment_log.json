@@ -5809,5 +5809,52 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-11-24",
+    "city": "Mumbai",
+    "adjusted": true,
+    "groups": {
+      "TMP2m/uv": {
+        "HLSTM_GRU": {
+          "lr": 0.0003,
+          "pre_err": 0.9588,
+          "post_err": 0.0152,
+          "improved": true
+        },
+        "GRU": {
+          "lr": 0.0003,
+          "pre_err": 1.0752,
+          "post_err": 1.7101,
+          "improved": false
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 0.6018,
+          "post_err": 0.4433,
+          "improved": true
+        }
+      },
+      "TMP2m/mv": {
+        "HLSTM_GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.982,
+          "post_err": 1.3237,
+          "improved": false
+        },
+        "GRU": {
+          "lr": 5e-05,
+          "pre_err": 0.4275,
+          "post_err": 0.3835,
+          "improved": true
+        },
+        "ANN": {
+          "lr": 5e-05,
+          "pre_err": 1.1384,
+          "post_err": 1.0497,
+          "improved": true
+        }
+      }
+    }
   }
 ]
