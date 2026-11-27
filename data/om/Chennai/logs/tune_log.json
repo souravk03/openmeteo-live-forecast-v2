@@ -1,12 +1,6 @@
 [
   {
     "city": "Chennai",
-    "tuned": false,
-    "groups": {},
-    "timestamp": "2026-10-08T21:26:45.705964"
-  },
-  {
-    "city": "Chennai",
     "tuned": true,
     "groups": {
       "PRmsl/mv": {
@@ -922,5 +916,11 @@
     "tuned": false,
     "groups": {},
     "timestamp": "2026-11-26T20:47:53.103273"
+  },
+  {
+    "city": "Chennai",
+    "tuned": false,
+    "groups": {},
+    "timestamp": "2026-11-27T20:43:07.963281"
   }
 ]
